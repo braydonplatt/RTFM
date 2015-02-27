@@ -1,4 +1,4 @@
 var app = angular.module('rtfmApp')
-    .service('mainService', function($http){
+    app.service('mainService', function(){
 
 })

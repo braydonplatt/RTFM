@@ -1,5 +1,5 @@
 angular.module('rtfmApp')
-    .service('EnvironmentService', function EnvironmentService($window) {
+    .service('environmentService', function($window) {
         return {
             getEnv: function () {
                 return $window.env;
